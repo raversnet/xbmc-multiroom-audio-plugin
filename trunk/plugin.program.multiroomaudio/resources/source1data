@@ -1,0 +1,6 @@
+#!/bin/bash
+
+WID=`xdotool search --class "XBMC"`;
+xdotool windowactivate $WID
+wmctrl -c "clientA"
+cvlc udp://@224.1.1.152:1152 --fullscreen --file-caching=0
