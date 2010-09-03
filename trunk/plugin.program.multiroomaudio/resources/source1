@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if pidof vlc | grep [0-9] > /dev/null
+then
+WID=`xdotool search --class "XBMC"`;
+wmctrl -c "clientB"
+xdotool windowactivate $WID
+wget -q "http://localhost:8081/xbmcCmds/xbmcHttp?command=ExecBuiltIn(Notification(Multiroom Audio,AV Source1 - Localhost - DeActivated,30000,/home/tshepherd/.xbmc/addons/plugin.program.multiroomaudio/resources/default.tbn))"
+else
+xterm -display :0 -T clientB -e /home/tshepherd/.xbmc/addons/plugin.program.multiroomaudio/resources/./source1data
+
+fi
