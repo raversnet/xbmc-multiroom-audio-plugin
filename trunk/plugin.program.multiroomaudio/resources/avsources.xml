@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<avsources>
+	<avsource>
+		<name>AV Source2 - Main</name>
+		<application>xterm -display :0 -T clientA -e /home/tshepherd/.xbmc/addons/plugin.program.multiroomaudio/resources/./source2</application>
+		<args></args>
+		<streamsrc>udp://@224.0.0.122:1122</streamsrc>
+		<avclientpath></avclientpath>
+		<avclientext></avclientext>
+		<srcA>source2</srcA>
+		<srcB>source2data</srcB>
+		<thumb></thumb>
+		<srctype>client</srctype>
+		<wait>true</wait>
+		<avclients>
+		</avclients>
+	</avsource>
+	<avsource>
+		<name>AV Source4 - Office</name>
+		<application>xterm -display :0 -T clientA -e /home/tshepherd/.xbmc/addons/plugin.program.multiroomaudio/resources/./source4</application>
+		<args></args>
+		<streamsrc>udp://@224.0.1.132:1132</streamsrc>
+		<avclientpath></avclientpath>
+		<avclientext></avclientext>
+		<srcA>source4</srcA>
+		<srcB>source4data</srcB>
+		<thumb></thumb>
+		<srctype>client</srctype>
+		<wait>true</wait>
+		<avclients>
+		</avclients>
+	</avsource>
+	<avsource>
+		<name>AV Source1 - Localhost</name>
+		<application>xterm -display :0 -T clientA -e /home/tshepherd/.xbmc/addons/plugin.program.multiroomaudio/resources/./source1</application>
+		<args></args>
+		<streamsrc>udp://@224.1.1.152:1152</streamsrc>
+		<avclientpath></avclientpath>
+		<avclientext></avclientext>
+		<srcA>source1</srcA>
+		<srcB>source1data</srcB>
+		<thumb></thumb>
+		<srctype>client</srctype>
+		<wait>true</wait>
+		<avclients>
+		</avclients>
+	</avsource>
+	<avsource>
+		<name>AV Source3 - Pool</name>
+		<application>xterm -display :0 -T clientA -e /home/tshepherd/.xbmc/addons/plugin.program.multiroomaudio/resources/./source3</application>
+		<args></args>
+		<streamsrc>udp://@224.0.2.112:1112</streamsrc>
+		<avclientpath></avclientpath>
+		<avclientext></avclientext>
+		<srcA>source3</srcA>
+		<srcB>source3data</srcB>
+		<thumb></thumb>
+		<srctype>client</srctype>
+		<wait>true</wait>
+		<avclients>
+		</avclients>
+	</avsource>
+</avsources>
