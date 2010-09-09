@@ -1,16 +1,15 @@
 #labels Phase-Deploy
-<b>Installation instructions</b>
+Installation instructions
 
-*INSTALLATION:*
+=INSTALLATION:=
 
-MultiroomAudio Plugin 1.0.x and above (XBMC Dharma and above)
+==MultiroomAudio Plugin 1.0.x and above (XBMC Dharma and above)==
 
 Use the new addons feature of XBMC to install the plugin ... Done!
 
 
-MultiroomAudio Plugin 1.b (XBMC Camelot)
+==MultiroomAudio Plugin 1.b (XBMC Camelot)==
 After you have met the minimum dependencies mentioned in the WikiReadme...
-
 
 1)  Place/copy the plugin in your ~/.xbmc/plugins/programs
 2)  Proceed to Programs/Program plugins/MultiroomAudio and bring up the context
